@@ -1,0 +1,747 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+height: 122px;
+width: 100%;
+
+align-items: center;
+display: flex;
+
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 122px;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+
+.cont{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+
+.name_img_logo{
+    width: 85px;
+    height: 35px;
+    border: 1px solid #999999; 
+    margin-left: 95px;
+    user-select: none;
+}
+
+
+/* NAVIGACIA*/
+
+
+.nav{
+    margin-left: 90px;
+    color: #1b1b1b;
+    font-size: 19px;
+}
+
+.nav1{
+    color: #1b1b1b;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav1:last-child{
+    margin-right: 0;
+}
+
+
+.nav1:hover{
+    
+    transition: 0.3s;
+    color: #7a2626;
+    text-decoration: underline;
+}
+.inputBox{
+    display: flex;
+    width: 164px;
+    align-items: center;
+    margin-left: 56px;
+   border: 1px solid #c2c2c2;
+   user-select: none;
+}
+
+.inputBox:hover{
+    border: 1px solid #8d8d8d;
+    transition: .3s;
+}
+
+.inputImgFind{
+background-color: #f8f8f8;
+margin-left: 20px;
+user-select: none;
+
+    
+}
+.input{
+    width: 100px;
+    height: 28px;
+    margin-left:0 ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #f8f8f8;
+    outline: none;
+    
+   
+}
+
+/* Next Block 2 */
+
+
+
+
+.eatMain{
+    height: 439px;
+    width: 100%;
+    
+    margin-top: 84px;
+}
+
+.eatBackground{
+    background-image: url(eat.Main.Block.png);
+    height: 439px;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+.blocContForEat{
+    
+    padding-top: 49px;
+    margin-left: 92px;
+}
+
+.name_logo2{
+    width: 250px;
+    height: 104px;
+    border: 2px solid #c2c2c2;
+    user-select: none;
+}
+
+.textEat{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: normal;
+    color: #921026;
+    margin-bottom: 29px;
+    margin-top: 31px;
+}
+
+.botEatText{
+    font-weight:lighter;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.butEatMain{
+    text-transform: uppercase;
+    border: 1px solid #c2c2c2;
+    background-color: #fff;
+    padding: 9px 13px;
+    color: #626262;
+    user-select: none;
+}
+
+.butEatMain:hover{
+    background-color: #ebe9e9;
+    color: #575757;
+    transition: .3s;
+    
+}
+
+
+
+/*          3box       */
+
+
+.treeBox{
+    margin-bottom: 82px;
+}
+
+.boxForPhotoEat{
+    height: 370px;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 85px;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.photoEat{
+    margin-left: 40px;
+    user-select: none;
+
+}
+
+.textEta3{
+    margin-top: 17px;
+}
+
+
+
+/*   4 Box   */
+
+.fourBoxmaim{
+    height: 437px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+    background-color: #f8f8f8;
+
+}
+
+
+.Named{
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #055555;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.LeftPgotoBlock{
+    height: 437px;
+    width: 521px;
+    margin-right: 35px;
+}
+
+.bottonName{
+    display: flex;
+    align-items: flex-end;
+   margin-bottom: 27px;
+    font-size: 16px;
+  
+
+}
+
+.levl{
+  
+   
+    
+}
+
+.LevelPng{
+    height: 25px;
+    width: 26px;
+    user-select: none;
+    margin-bottom: -2px;
+}
+
+.TimePNG{
+    margin-right: 4.5px;
+   margin-bottom: 2px;
+    user-select: none;
+}
+.time{
+     
+    margin-right: 9px;
+    
+}
+
+.buttonSavedBox{
+    margin-left: auto;
+}
+
+
+.buttonSvaed{
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    background-color: #f8f8f8;
+    border: 1px solid #c2c2c2;
+}
+
+.buttonSvaed:hover{
+    background-color: #eeeeee;
+    border: 1px solid #a8a8a8;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.recept{
+    white-space: pre-wrap;
+    width: 510px;
+    height: 268px;
+    font-size: 16px;
+    font-weight:300;
+    overflow-y: scroll;
+}
+
+.Directions{
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+}
+
+
+/*  SCROL   */
+
+.recept::-webkit-scrollbar{
+ width: 2px;
+}
+.recept::-webkit-scrollbar-track{
+ background-color: #ddd;
+}
+.recept::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 20px;
+
+}
+
+
+
+/* 5 Block  ------*/
+
+
+.FiveBlock{
+    width: 100%;
+    margin-top: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftFiveBlock{
+    width: 517px;
+    height: 517px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+.riuhgtFiveBlock{
+    width: 517px;
+    height: 517px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+.contBox5{
+    width: 440px;
+    height: 455px;
+   user-select: none;
+    margin: 0 auto;
+    
+}
+
+.Head404{
+    font-weight:400;
+    color: #333;
+    border-bottom: 2px solid #ddd ;
+   line-height: 1;
+   margin-top: 18px;
+   padding-bottom: 8px;
+}
+
+
+
+.contBlockForSorry{
+    position: relative;
+    text-align: center;
+}
+
+.Tar{
+   
+   
+    height: 321;
+    width: 321;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+   z-index: 1;
+   
+    
+}
+
+
+
+.boxForTextTar5{
+    position: absolute;
+    right: 33%;
+    bottom: 30%;
+    z-index:20 ;
+   
+  
+    
+}
+
+.textTar5Up{
+    font-size: 34px;
+    font-weight: 500;
+
+}
+
+.textTar5Mid{
+   
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #999;
+}
+
+.textTar5Bott{
+    font-family: 'Playfair Display', serif;
+ transform:rotate(76deg);
+ font-size: 27px;
+ font-weight: 300;
+ color: #999;
+}
+.forBut5{
+    text-align: center;
+    margin-top: 35px;
+}
+.Back5{
+ padding: 11px 38px;
+ border: 1px solid #ccc;
+ background-color:#f8f8f8;
+ font-size: 12px;
+ font-weight: lighter;
+}
+.Back5:hover{
+ background-color: #ebebeb;
+ border: 1px solid rgb(170, 170, 170);
+}
+
+
+
+/* Right Block 5  */
+
+
+.boxContRight5{
+width: 440px;
+height: 455px;
+user-select: none;
+margin: 0 auto;
+}
+
+.contForAva{
+display: flex;
+
+}
+
+
+.Avatar{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+
+.avaText{
+    width: 100%;
+    height: 92px;
+    margin-top: 38px;
+  
+    border-bottom: 2px solid #ddd;
+   
+}
+
+
+/*  Имя  и соц сети автара  */
+.avaName{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.avaTextBottonName{
+ font-size: 16px;
+ font-weight: lighter;
+ margin: 11px 0;
+}
+
+.socIcon{
+    display: flex;
+   
+}
+
+.imgSoc{
+    margin-right: 14px;
+    
+}
+
+
+/* About Lemon */
+
+.contForTextLemon{
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+.aboutLemon{
+    margin-top: 25px;
+}
+
+.aboutNamedLemon{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    user-select: text;
+}
+
+.TextAboutLemon{
+ white-space: pre-wrap;   
+ font-size: 14px;
+font-weight: 300 ;
+user-select:text;
+}
+
+.podpis{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.classForPod{
+    width: 163px;
+    height: 63px;
+   
+}
+
+
+/* 6 block*/
+
+.sixBlock{
+    margin-top: 75px;
+    margin-left: 48px;
+    display: flex;
+}
+
+.chiChi{
+    width: 289px;
+    height: 348px;
+  background-color: #fff;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+.boxForPosishion{
+    width: 255px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 28px;
+    
+}
+
+
+.NamedChiChi{
+    font-size: 25px;
+    color: #055555;
+    font-weight: bold;
+   padding-bottom: 9px;
+    border-bottom: 2px solid #ddd;
+    
+    
+}
+.ChiChiAvaBox{
+    margin-top: 8px;
+    display: flex;
+    text-align: start;
+    font-size: 16px;
+   
+}
+.ChiAva{
+    display: flex;
+   
+    text-align: start;
+}
+
+.Ava6Box{
+    width:57px ;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.ChiText{
+    margin-left: 20px;
+}
+
+.chiChiTextUp{
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.chiChiTextDown{
+    font-weight: 600;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    font-weight: 300;
+    
+}
+
+.TimeTime6{
+    width: 11px;
+    height: 13px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-weight: normal;
+}
+
+
+.photoEats{
+    margin-top: 15px;
+}
+
+
+/* Block 6 mid box -------*/
+
+.midRecept{
+    user-select: none;
+    width: 289px;
+    height: 426px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+    margin-left: 95px;
+
+}
+.boxInMidRecept{
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+/* Block6  Шапка шестого блока центральная коробка  */
+.headMidRecept{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+.receptNamedMidText{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.receptmidSocSec img{
+    margin-left: 10px;
+
+}
+.levelsRecept{
+    margin-top: 13px;
+    margin-left: 35px;
+ 
+}
+.LevelRecept{
+    font-size: 12px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+.LevelRecept:first-child{
+    font-weight: 900;
+}
+
+.photoAndReceptMid6{
+    display: flex;
+    margin-top: 28px ;
+}
+
+.forReceptMid6{
+    user-select: text;
+  margin-left: 15px;
+}
+
+.textMid6p1{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.by{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.textMid6p2{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.butViewMore{
+    margin-top: 30px;
+    padding: 11px 19px;
+   margin-left: 144px;
+   background-color: #fff;
+   font-size: 11px;
+   font-weight: 300;
+   text-transform: uppercase;
+   border: 1px solid #ccc;
+}
+
+.butViewMore:hover{
+    transition: .3s;
+    border: 1px solid rgb(196, 180, 180);
+    background-color: rgb(219, 219, 219);
+}
+
+
+/* right box 6 Block    */
+.popularNow{
+    margin-left: 58px;
+    width: 289px;
+    height: 348px;
+    background-image: url(backGround6blockLeft.png);
+    box-shadow: 0 0 9px 5px rgb(223, 223, 223);
+}
+
+.popularBox{
+    margin-top: 15px;
+    margin-left: 19px;
+}
+
+.textBoxPopular1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #990033;
+}
+
+.textBoxPopular2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.textBoxPopular3{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popLeftBox{
+    user-select: none;
+    margin-top: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 13px;
+    font-weight: 300;
+}
+
+.popLeftBox:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+}
